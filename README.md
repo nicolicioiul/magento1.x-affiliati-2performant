@@ -1,8 +1,9 @@
 #A simple way to integrate 2performant checkout event for magento 1.x (iframe method)
+
 For example:
-
+<code>
 <iframe height=‘1’ width=‘1’ scrolling=‘no’ marginheight=‘0’ marginwidth=‘0’ frameborder=‘0’ src=‘//event.2performant.com/events/salecheck?amount=__ADD_SALE_VALUE__&campaign_unique=xxx&confirm=xxx&description=__ADD_DESCRIPTION__&transaction_id=__ADD_TRANSACTION_ID__‘></iframe>
-
+</code>
 The iframe can be now disabled or enabled from admin interface.
 The parameters can be also configured from admin.
 
@@ -24,4 +25,4 @@ Ex:
             <block type="e2performant/checkout_success" name="2performant.checkout.success"/>
         </reference>
     </checkout_onepage_success>
-<code>
+</code>
