@@ -14,7 +14,7 @@ The parameters can be also configured from admin.
 in checkout.xml, from in your theme.
 
 Ex:
-    ```
+    ```html
     <checkout_onepage_success translate="label">
         <label>One Page Checkout Success</label>
         <reference name="root">
