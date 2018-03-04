@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Enode_2performant>
+            <version>0.0.1</version>
+        </Enode_2performant>
+    </modules>
+    <global>
+        <helpers>
+            <e2performant>
+                <class>Enode_2performant_Helper</class>
+            </e2performant>
+        </helpers>
+        <blocks>
+            <e2performant>
+                <class>Enode_2performant_Block</class>
+            </e2performant>
+        </blocks>
+    </global>
+</config>

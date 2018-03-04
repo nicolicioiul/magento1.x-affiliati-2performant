@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Enode_2performant>
+            <active>true</active>
+            <codePool>local</codePool>
+            <version>0.0.1</version>
+        </Enode_2performant>
+    </modules>
+</config>
